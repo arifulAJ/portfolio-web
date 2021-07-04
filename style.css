@@ -28,6 +28,7 @@ span {
 }
 #container{
     display: flex;
+    margin-bottom: 150px;
    width: 100%;
    background-image: url(img/top-banner.png);
    background-repeat: no-repeat;
@@ -43,4 +44,37 @@ span {
 }
 #right-content img{
     width: 70%;
+}
+#bold{
+    font-weight: 700;
+}
+#drim-big{
+    display: flex;
+    width: 100%;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+ 
+   
+}
+#drim-left{
+    width: 50%;
+    padding-left: 30px;
+    
+}
+#drim-left img{
+    width: 70%;
+}
+#drim-right{
+    width: 50%;
+    padding-left: 30px;
+
+}
+#resume{
+    background-color: orangered;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
 }
